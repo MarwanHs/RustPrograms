@@ -60,6 +60,7 @@ fn main() {
     let game4 = Game::build(String::from("newer game"), 2020, 8);
     println!("is game4 newer and better than game3? {}", game4.newer_and_better(&game3));
 
+    // Tuple Struct
     struct Movie(String, u16, u16, String);
     let mut movie1 = Movie(String::from("Terminator"), 1989, 92, String::from("US"));
     movie1.2 = 98;
